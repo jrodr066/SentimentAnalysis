@@ -23,7 +23,7 @@ In this project, given subreddit texts in realtion to mental health  struggles, 
 
 The data consists of subreddits from five different categories(n = 190k )collected via web scrapping. The following is a list of column names the data consists of:
 
-'''
+```
 subreddit                   ptsdassistanceptsdrelationshipssurvivorsofabus... <br/>
 post_id                     8601tu8lbrx99ch1zh7rorpp9p2gbc7tx7et7iphly5m3k... <br/>
 sentence_range              (15, 20)(0, 5)(15, 20)[5, 10][0, 5](30, 35)[25... <br/>
@@ -140,7 +140,7 @@ social_upvote_ratio                                                    2393.9 <b
 social_num_comments                                                     28234 <br/>
 syntax_fk_grade                                                       15463.8 <br/>
 sentiment                                                             115.621 <br/>
-'''
+```
 
 
 # References:
