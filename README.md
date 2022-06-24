@@ -13,7 +13,7 @@ Mental Health Advocacy has exponentially grown in the past decade. In efforts to
 
 # Background: 
 
-The ability to detect mental destress in social media posts is crucial in that any form of outreach can make a difference. Countless of mental health statistics exist online and many of it revolves around the idea of out reach. Mental health has not alwauys received the attention it requires, but even then, it still remain taboo in certain communities and geographic locations to talk about mental health. For these vulneable communities, or potentially even households, it is pertinent to reach out to them through other means. Although technology is not readily available to all, it encompasses a broad population of teenagers: the current predominant group. Many teenagers reserve to social media as a form of relief. With that said, NLP can be a powerful tool to use in order to target vulnerable users. Although the data being used only encompasses a subsample, it permits us to receive of glimpse at what an optimal NLP model that detects stress may present itself to be. 
+The ability to detect mental destress in social media posts is crucial in that any form of outreach can make a difference. Currently, we see many forms of outreach being done in short genres,such as Twitter, but what is currently lacking is the ability for models to detect stress in larger domains. Countless of mental health statistics exist online and many of it revolves around the idea of out reach. Mental health has not always received the attention it requires, but even then, it still remain taboo in certain communities and geographic locations to talk about mental health. For these vulneable communities, or potentially even households, it is pertinent to reach out to them through other means. Although technology is not readily available to all, it encompasses a broad population of teenagers: the current predominant group. Many teenagers reserve to social media as a form of relief. With that said, NLP can be a powerful tool to use in order to target vulnerable users. Although the data being used only encompasses a subsample, it permits us to receive of glimpse at what an optimal NLP model that detects stress may present itself to be. 
 
 
 # Project:
@@ -21,8 +21,9 @@ In this project, given subreddit texts in realtion to mental health  struggles, 
 
 # Data:
 
-The data I will be using consists of subreddits collected via web scrapping. The following is a list of column names the data consists of:
+The data consists of subreddits from five different categories(n = 190k )collected via web scrapping. The following is a list of column names the data consists of:
 
+'''
 subreddit                   ptsdassistanceptsdrelationshipssurvivorsofabus... <br/>
 post_id                     8601tu8lbrx99ch1zh7rorpp9p2gbc7tx7et7iphly5m3k... <br/>
 sentence_range              (15, 20)(0, 5)(15, 20)[5, 10][0, 5](30, 35)[25... <br/>
@@ -139,10 +140,10 @@ social_upvote_ratio                                                    2393.9 <b
 social_num_comments                                                     28234 <br/>
 syntax_fk_grade                                                       15463.8 <br/>
 sentiment                                                             115.621 <br/>
-
+'''
 
 
 # References:
-Millin, Oliver T., Jason C. Furtado, and Jeffrey B. Basara. "Characteristics, Evolution, and Formation of Cold Air Outbreaks in the Great Plains of the United States." Journal of Climate (2022): 1-37.
+Turcan, E., & McKeown, K. (2019). Dreaddit: A Reddit dataset for stress analysis in social media. arXiv preprint arXiv:1911.00133.
 
 Rolnick, David, et al. "Tackling climate change with machine learning." ACM Computing Surveys (CSUR) 55.2 (2022): 1-96.
