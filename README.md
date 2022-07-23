@@ -1,4 +1,4 @@
-# Natural Language Processing: Reddit Sentiment Analysis
+# NLP: Reddit Sentiment Analysis
 
 ## Detecting Stress on Text Using Bag of Words
 
